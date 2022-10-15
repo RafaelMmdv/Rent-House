@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header-main {
+    background-image: url("/img/bg_1.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+
+}
+
+ul {
+    display: flex;
+}
+
+ul>li>a{
+    color: white;
+    padding-left: 25px;
+    white-space: nowrap;
+}
+
+/* ul li:last-child {
+    padding-left: 50px;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.gradient {
+    position: absolute;
+    background: linear-gradient( #1B1B1B 20.85%, rgba(27, 27, 27, 0.535551) 52.78%, rgba(27, 27, 27, 0.18) 76.28%, rgba(27, 27, 27, 0) 99.66%);
+
+height: 150px;
+width: 100%;
+}
+
+.gradient2 {
+    background: linear-gradient(357.33deg, #1B1B1B 22.15%, rgba(27, 27, 27, 0.535551) 56.13%, rgba(27, 27, 27, 0.18) 81.14%, rgba(27, 27, 27, 0) 106.02%);
+height: 104px;
+width: 100%;
+bottom: 0;
+position: absolute;
+}
+
+.container {
+padding: 0 60px;
+
+}
+
+
+
+.nav_tab {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+    
+}
+
+header p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 139.52%;
+    /* or 89px */
+
+    letter-spacing: 0.03em;
+
+    /* w */
+
+    color: #FFFBFB;
+}
+
+span {
+    color: orange;
+}
+
+.text {
+    max-width: 865px;
+    height: 178px;
+    margin-top: 230px;
+}
+
+main {
+    background: #1B1B1B;
+}
+
+section {
+    height: 100vh;
+}
+
+@media only screen and (min-width:768px) {
+
+
+}

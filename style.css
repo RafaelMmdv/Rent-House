@@ -18,6 +18,8 @@ body {
 
 }
 
+
+
 ul {
     display: flex;
 }
@@ -62,11 +64,14 @@ position: absolute;
 }
 
 .container {
-padding: 0 60px;
+padding: 0 200px;
 
 }
 
-
+.filters {
+    display: flex;
+    justify-content: space-between;
+}
 
 .nav_tab {
     display: flex;
@@ -111,9 +116,130 @@ main {
     background: #1B1B1B;
 }
 
-section {
-    height: 100vh;
+
+.card-container {
+    color: white;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
+
+.house1 {
+    background-image: url('/img/house1.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 577px;
+    height: 450px;
+}
+
+.house2 {
+    background-image: url('/img/house2.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 577px;
+    height: 450px;
+}
+
+.house3 {
+    background-image: url('/img/house3.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 577px;
+    height: 450px;
+}
+
+.house4 {
+    background-image: url('/img/house4.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 577px;
+    height: 450px;
+}
+
+.house5 {
+    background-image: url('/img/house5.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 577px;
+    height: 450px;
+}
+
+.house6 {
+    background-image: url('/img/house6.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 577px;
+    height: 450px;
+}
+
+.card-body{
+    width: 577px;
+    height: 582px;
+
+}
+
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+.about {
+    max-width: 580px;
+height: 132px;
+background: #2C2B2B;
+border-radius: 0px 0px 8px 8px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    min-width: 350px;
+  }
+  table tr td,
+  table tr td {
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    border-radius: 6px;
+    padding: 5px;
+  }
+
+  table tr td:first-child {
+    border-left: 1px solid #bbb;
+  }
+
+  table tr td:first-child {
+    border-left: 1px solid #bbb;
+  }
+
+  table tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+  }
+  
+  /* bottom-right border-radius */
+  table tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+  }
+
+  table tr:last-child td:last-child {
+    border-top-right-radius: 6px;
+  }
+
+
+
 
 @media only screen and (min-width:768px) {
 

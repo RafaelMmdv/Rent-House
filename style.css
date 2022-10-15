@@ -182,6 +182,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 10px;
 }
 
 .line2 {
@@ -238,8 +239,41 @@ table {
     border-top-right-radius: 6px;
   }
 
+  .more {
+    display: grid;
+    justify-content: center;
+    color: #fff;
+    justify-items: center;
+    margin-top: 15px;
+  }
 
+  .map-w {
+    max-width: 100%;
+    width: 100%;
+  }
 
+.down {
+    display: grid;
+
+}
+
+.about-us {
+    background-image: url('/img/image16.png');
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 70vh;
+}
+
+.about-us h2 {
+    font-size: 32px;
+    color: #FF9505;
+}
+
+.about-us p {
+    color: #fff;
+    font-size: 16px;
+}
 
 @media only screen and (min-width:768px) {
 

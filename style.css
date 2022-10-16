@@ -124,14 +124,24 @@ main {
     justify-content: center;
 }
 
+.filters {
+    padding: 40px 0 20px 0;
+}
+
 .button1 {
     padding: 12px 24px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-op:not(:first-child){
+    margin-left: 10px;
 }
 
 .btn-op:first-child {
     border: 1.5px solid #FF9505;
     border-radius: 5px;
-    padding: 12px 24px;
+    padding: 10px 20px;
     background: rgba(0, 0, 0, 0);
     color: #fff;
 }
@@ -139,7 +149,7 @@ main {
 .btn-op:nth-child(2){
     border: 1px solid #FFFBFB59;
     border-radius: 5px;
-    padding: 12px 24px;
+    padding: 10px 20px;
     background: rgba(0, 0, 0, 0);
     color: #fff;
 }
@@ -147,7 +157,7 @@ main {
 .btn-op:nth-child(3){
     border: 1px solid #FFFBFB59;
     border-radius: 5px;
-    padding: 12px 24px;
+    padding: 10px 20px;
     background: rgba(0, 0, 0, 0);
     color: #fff;
 }
@@ -155,7 +165,7 @@ main {
 .btn-op:nth-child(4){
     border: 1px solid #FFFBFB59;
     border-radius: 5px;
-    padding: 12px 24px;
+    padding: 10px 20px;
     background: rgba(0, 0, 0, 0);
     color: #fff;
 }
@@ -166,6 +176,8 @@ main {
     background-size: cover;
     max-width: 577px;
     height: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .house2 {
@@ -174,6 +186,8 @@ main {
     background-size: cover;
     max-width: 577px;
     height: 450px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .house3 {
@@ -211,6 +225,7 @@ main {
 .card-body{
     width: 577px;
     height: 582px;
+    border-radius: 10px;
 
 }
 
@@ -286,6 +301,7 @@ table {
     font-size: 16px;
     color: #FFFFFF80;
     font-family: 'Inter' sans-serif;
+    padding: 10px 0 30px 0;
   }
 
   .more {
@@ -328,6 +344,10 @@ table {
     font-size: 16px;
 }
 
+.about-us .button {
+    padding: 11px 24px;
+}
+
 #about{
     margin-top: 60px;
 }
@@ -339,7 +359,9 @@ table {
     max-width: 665px;
 }
 
-
+.about-text p {
+    padding: 20px 0;
+}
 
 .grad{
     background: linear-gradient( rgba(27, 27, 27, 0) 0%, #1B1B1B 100%);

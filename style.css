@@ -176,7 +176,7 @@ main {
     background-image: url('/img/house1.png');
     background-position: center;
     background-size: cover;
-    max-width: 577px;
+    max-width: 650px;
     height: 450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -186,7 +186,7 @@ main {
     background-image: url('/img/house2.png');
     background-position: center;
     background-size: cover;
-    max-width: 577px;
+    max-width: 650px;
     height: 450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -196,7 +196,7 @@ main {
     background-image: url('/img/house3.png');
     background-position: center;
     background-size: cover;
-    max-width: 577px;
+    max-width: 650px;
     height: 450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -206,7 +206,7 @@ main {
     background-image: url('/img/house4.png');
     background-position: center;
     background-size: cover;
-    max-width: 577px;
+    max-width: 650px;
     height: 450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -216,7 +216,7 @@ main {
     background-image: url('/img/house5.png');
     background-position: center;
     background-size: cover;
-    max-width: 577px;
+    max-width: 650px;
     height: 450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -226,14 +226,14 @@ main {
     background-image: url('/img/house6.png');
     background-position: center;
     background-size: cover;
-    max-width: 577px;
+    max-width: 650px;
     height: 450px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .card-body{
-    width: 577px;
+    width: 650px;
     height: 582px;
     border-radius: 10px;
 
@@ -259,7 +259,7 @@ main {
 }
 
 .about {
-    max-width: 580px;
+    max-width: 650px;
 height: 132px;
 background: #2C2B2B;
 border-radius: 0px 0px 8px 8px;

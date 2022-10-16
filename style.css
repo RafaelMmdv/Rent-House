@@ -253,9 +253,12 @@ main {
 }
 
 .button {
-    padding: 5px 10px;
+    padding: 10px 25px;
     border-radius: 7px;
     border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .about {

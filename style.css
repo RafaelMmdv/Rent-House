@@ -124,6 +124,42 @@ main {
     justify-content: center;
 }
 
+.button1 {
+    padding: 12px 24px;
+}
+
+.btn-op:first-child {
+    border: 1.5px solid #FF9505;
+    border-radius: 5px;
+    padding: 12px 24px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.btn-op:nth-child(2){
+    border: 1px solid #FFFBFB59;
+    border-radius: 5px;
+    padding: 12px 24px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.btn-op:nth-child(3){
+    border: 1px solid #FFFBFB59;
+    border-radius: 5px;
+    padding: 12px 24px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.btn-op:nth-child(4){
+    border: 1px solid #FFFBFB59;
+    border-radius: 5px;
+    padding: 12px 24px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
 .house1 {
     background-image: url('/img/house1.png');
     background-position: center;
@@ -239,12 +275,28 @@ table {
     border-top-right-radius: 6px;
   }
 
+  .location h2 {
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FF9505;
+  }
+
+  .location p {
+    font-size: 16px;
+    color: #FFFFFF80;
+    font-family: 'Inter' sans-serif;
+  }
+
   .more {
     display: grid;
     justify-content: center;
     color: #fff;
-    justify-items: center;
     margin-top: 15px;
+  }
+
+  .more p {
+    padding-top: 10px;
   }
 
   .map-w {
@@ -254,7 +306,7 @@ table {
 
 .down {
     display: grid;
-
+    justify-items: center;
 }
 
 .about-us {
@@ -262,7 +314,8 @@ table {
     background-position: center;
     background-size: cover;
     max-width: 100%;
-    height: 70vh;
+    height: 736px;
+    position: relative;
 }
 
 .about-us h2 {
@@ -274,6 +327,59 @@ table {
     color: #fff;
     font-size: 16px;
 }
+
+#about{
+    margin-top: 60px;
+}
+
+.about-text {
+    padding-top: 300px;
+    z-index: 1;
+    position: absolute;
+    max-width: 665px;
+}
+
+
+
+.grad{
+    background: linear-gradient( rgba(27, 27, 27, 0) 0%, #1B1B1B 100%);
+    transform: rotate(-180deg);
+    position: absolute;
+    width: 86.8%;
+    height: 220px;
+}
+
+.left-grad{
+    background: linear-gradient(180deg, rgba(27, 27, 27, 0) 0%, #1B1B1B 100%);
+    transform: matrix(0, -1, -1, 0, 0, 0);
+    width: 736px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.right-text {
+    float: right;
+    padding-top: 160px;
+    width: 275px;
+
+}
+
+.box-1, .box-2, .box-3 {
+    display: grid;
+    justify-items: center;
+    padding-top: 40px;
+}
+
+.right-text p{
+    text-align: center;
+}
+
+h5 {
+    color: white;
+}
+
 
 @media only screen and (min-width:768px) {
 
